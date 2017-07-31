@@ -1,0 +1,50 @@
+.fg-panel-container {
+	flex-direction: row;
+	display: flex;
+	overflow: hidden;
+}
+
+.ui-resizable-handle.ui-resizable-e
+{
+	width: 5px;
+	background: url(https://raw.githubusercontent.com/RickStrahl/jquery-resizable/master/assets/vsizegrip.png) center center no-repeat #999;
+	cursor: col-resize;
+}
+
+.fg-panel{
+	padding: 10px;	
+}
+
+.fg-panel.fg-left {
+	flex: 0 0 auto;
+	min-width: 150px;
+	white-space: nowrap;
+}
+
+.fg-panel.fg-right {
+	flex: 1 1 auto;
+}
+
+.fg-tree{
+	position: relative;
+	padding: 0 30px 0;
+}
+
+.fg-tree .fg-control.glyphicon{
+	left:0;
+	top: 0;
+}
+
+.fg-tree .fg-tree
+{
+	display:none;
+}
+
+.fg-tree.fg-on
+{
+	display:block;
+}
+
+ul.fg-tree{
+	 list-style: none;
+}
